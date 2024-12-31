@@ -19,7 +19,7 @@ int main() {
   printf("number after multiply: %d\n", number);
 
   int sum = cumulativeSum(number);
-  printf("cumulative sum of %d: %d", number, sum);
+  printf("cumulative sum of %d: %d\n", number, sum);
 
   return EXIT_SUCCESS;
 }
