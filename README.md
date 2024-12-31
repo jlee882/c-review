@@ -21,6 +21,14 @@ Review C for OMSCS
     - `-c` suppress automatic linking, 
 - example: `gcc -g -Wall program.c -o program.exe
 
+## debugging
+See debugging directory for gdb examples.
+
+Valgrind - tool for checking memory leaks
+- to install: `sudo apt install valgrind`
+- to run valgrind: `valgrind <program.exe>`
+
+
 Usually just use a makefile, see makefile directory for example.
 
 
